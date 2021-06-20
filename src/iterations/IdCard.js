@@ -1,5 +1,5 @@
 import React from 'react';
-import './IdCard.css';
+import './iterartions.css';
 
 
 function fullName(firstname, lastname) {
@@ -15,7 +15,7 @@ function formatDate(date) {
 
 const IdCard = (props) => {
     return (
-        <article className='idCard-container'>
+        <article className='container idCard-container'>
             <img src={props.picture} alt={fullName(props.firstName, props.lastName)} />
             <div>
                 <p>First name: {props.firstName}</p>

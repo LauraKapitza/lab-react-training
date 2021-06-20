@@ -1,6 +1,5 @@
-import './Greetings.css';
+import './iterartions.css';
 import React from 'react';
-import { PROPERTY_TYPES } from '@babel/types';
 
 
 function translateGreeting (lang) {
@@ -17,11 +16,7 @@ function translateGreeting (lang) {
 
 const Greetings = (props) => {
     return (
-        <div className="greetings-container">
-            <span>{translateGreeting(props.lang)}</span>
-            <span> </span>
-            <span>{props.children}</span>
-        </div>
+        <p className="container greetings-container">{translateGreeting(props.lang)} {props.children}</p>
     )
 }
 

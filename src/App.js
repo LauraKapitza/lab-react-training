@@ -1,6 +1,7 @@
 import React from 'react';
-import Greetings from './greetings/Greetings.js';
-import IdCard from './idcard/IdCard.js';
+import Greetings from './iterations/Greetings.js';
+import IdCard from './iterations/IdCard.js';
+import Random from './iterations/Random.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -34,6 +35,9 @@ function App() {
 
 
       <hr />
+      <h2>Iteration 3 - Random</h2>
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/>
     
     
     
