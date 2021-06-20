@@ -1,11 +1,13 @@
 import React from 'react';
-import IdCard from './IdCard/IdCard.js';
+import Greetings from './greetings/Greetings.js';
+import IdCard from './idcard/IdCard.js';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+
       <h2>Iteration 1 - Id Cards</h2>
       <IdCard
         lastName='Doe'
@@ -15,7 +17,6 @@ function App() {
         birth={new Date("1992-07-14")}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName='Delores '
         firstName='Obrien'
@@ -28,6 +29,8 @@ function App() {
       <hr />
 
       <h2>Iteration 2 - Greetings</h2>
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
 
 
       <hr />

@@ -1,0 +1,8 @@
+.greetings-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto 5px;
+    padding: 5px 0;
+}
