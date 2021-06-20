@@ -8,7 +8,6 @@ function fullName(firstname, lastname) {
 
 function formatDate(date) {
     let arr = date.toString().split(' ', 4)
-    console.log(arr.join(' '))
     return arr.join(' ')
 }
 

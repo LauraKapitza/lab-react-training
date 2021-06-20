@@ -1,8 +1,8 @@
-import React from 'react';
+import BoxColor from './iterations/BoxColor.js';
 import Greetings from './iterations/Greetings.js';
 import IdCard from './iterations/IdCard.js';
 import Random from './iterations/Random.js';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -28,7 +28,6 @@ function App() {
       />
 
       <hr />
-
       <h2>Iteration 2 - Greetings</h2>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
@@ -39,8 +38,11 @@ function App() {
       <Random min={1} max={6}/>
       <Random min={1} max={100}/>
     
-    
-    
+      <hr />
+      <h2>Iterations 4 - BoxColor</h2>
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
+
     </div>
   );
 }
