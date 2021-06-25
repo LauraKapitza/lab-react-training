@@ -30,3 +30,31 @@
     padding: 30px 10px;
     text-align: center; 
 }
+
+.creditcard-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.creditcard-container img {
+    width: 50px; height: auto;
+    align-self: flex-end;
+    margin: 10px 10px 0 0;
+}
+
+.creditcard-container .card-number {
+    align-self: center;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.creditcard-container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0;
+}
+
+.creditcard-container p {
+    margin: 5px 0 15px;
+}
